@@ -3,6 +3,9 @@ import './Home.css';
 import { useState } from 'react';
 import { CapacitorBarcodeScanner, CapacitorBarcodeScannerTypeHint } from '@capacitor/barcode-scanner';
 
+
+
+
 const Home: React.FC = () => {
   const [scannerResult, setScannerResult] = useState<string>('No Data...');
 
